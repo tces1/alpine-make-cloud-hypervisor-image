@@ -12,7 +12,7 @@ Base version from https://github.com/alpinelinux/alpine-make-vm-image
 * rsync
 * e2fsprogs, btrfs-progs, or xfsprogs
 
-If you have docker, forget I said above, except for qemu-nbd.
+If you have docker, forget I said above, except for qemu-nbd and qemu-img.
 
 ## Usage Example
 Check NBD module installed
@@ -33,7 +33,7 @@ $ cloud-hypervisor --kernel ./hypervisor-fw  --disk path=alpine-v3.18-$(date +%Y
 
 ```
 
-== License
+## License
 
 This project is licensed under http://opensource.org/licenses/MIT/[MIT License].
 For the full text of the license, see the link:LICENSE[LICENSE] file.
