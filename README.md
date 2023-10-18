@@ -1,4 +1,4 @@
-= Make Alpine Linux Cloud Hypervisor VM Image
+# Make Alpine Linux Cloud Hypervisor VM Image
 
 This project provides a script for making customized Alpine Linux disk images for cloud hypervisor firmware style boot.
 
